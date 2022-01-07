@@ -1,5 +1,5 @@
 #jupyterhub.Dockerfile
-FROM jupyterhub/jupyterhub:1.4.2
+FROM jupyterhub/jupyterhub:1.5
 
 COPY jupyterhub_config.py /srv/jupyterhub
 
